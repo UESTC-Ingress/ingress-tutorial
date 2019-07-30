@@ -1,14 +1,11 @@
 # Ingress 中文游戏指南
 
 **正在写作中。**
+本书是由电子科大Ingress社团Fork的版本。
 
 ## 在线阅读本书
 
-http://hz-ingress.gitbooks.io/ingress-tutorial/content/
-
-## 下载电子书
-
-https://www.gitbook.com/book/hz-ingress/ingress-tutorial/dashboard
+https://tutorial.nia.ac.cn
 
 ## 自行编译
 
@@ -32,7 +29,7 @@ https://www.gitbook.com/book/hz-ingress/ingress-tutorial/dashboard
 
 然后 clone 本书
 ```shell
-$ git clone --depth 1 https://github.com/hz-ingress/ingress-tutorial.git
+$ git clone --depth 1 https://github.com/UESTC-Ingress/ingress-tutorial.git
 ```
 
 接下来你可以选择其中一种方法来查看本书的内容：
@@ -52,7 +49,7 @@ $ git clone --depth 1 https://github.com/hz-ingress/ingress-tutorial.git
 
 ## 参与项目
 
-合作请联系： jamesswineson[#]gmail.com
+合作请联系： tutorial[#]nia.ac.cn
 
 ## 版权
 
