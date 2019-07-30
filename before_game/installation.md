@@ -6,14 +6,17 @@
 
 > 16年5月起，NIA更新了作弊检测算法,导致部分国产安卓设备的定位算法（例如小米手机的智能省电模式）会与之冲突，使用类似设备操作可能会被误封。如被封号请[与NIA联系](https://support.ingress.com/hc/en-us/requests/new?ticket_form_id=164508)。
 
+> Ingress Prime起，应用对Android设备强制要求Safetynet检测和手机内root相关文件的检测，不通过Magisk Hide进行的root和Xposed及其他任何与root[相关的应用、文件](https://amp.reddit.com/r/PokemonGoSpoofing/comments/8a8trk/these_are_the_files_niantic_is_looking_for/)被检测出，都将无法正常进入应用。
+
 由于严格且不可知的反作弊机制，不建议从第三方市场下载 Ingress 客户端。你可以从 [Play Store](https://play.google.com/store/apps/details?id=com.nianticproject.ingress) 下载安装。
 
 ### 系统要求
 
- * Android 2.3 及更高版本
+ * Android 6.0 及更高版本
  * 最新版本的 [Google Play Service](https://play.google.com/store/apps/details?id=com.google.android.gms)（你可以使用 Play Store 打开这个链接来检查 Google Play Service 更新）
- * 约 50M 可用空间 [1]
+ * 约 200M 可用空间 [1]
  * GPS 模块
+ * 通过[Safetynet检测](https://play.google.com/store/apps/details?id=org.freeandroidtools.safetynettest)（你可以使用 Play Store 打开这个链接来检测 Safetynet 是否通过）
 
 注：外置蓝牙 GPS 模块在某些 Android 版本下可用，尚无全面的兼容性测试报告。
 
@@ -23,7 +26,7 @@
 
 ### 系统要求
 
- * iOS 7.0 及更高版本
+ * iOS 10.0 及更高版本
  * 约 100M 可用空间
  * 未越狱 [2]
 
