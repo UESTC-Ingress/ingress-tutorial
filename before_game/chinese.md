@@ -107,17 +107,17 @@ iOS 原生支持的 VPN 协议之一。能在多数网络环境下正常工作�
 
 ## 地图偏移
 
-由于中国国家测绘局的相关规定，所有中国的电子地图均存在一定程度的[非线性偏移](http://baike.baidu.com/view/3163334.htm)，表现在 Ingress 里即为游戏里及 Intel 地图上显示的地图和 Portal 及玩家实际位置存在一定的偏移，关于此，需要注意以下几点。
+由于中国国家测绘局的相关规定，所有中国的电子地图均存在一定程度的[非线性偏移](http://baike.baidu.com/view/3163334.htm)，关于此，需要注意以下几点。
 
- * 游戏内地图显示的道路不可信
- * 所有 Portal 位置也存在相应偏移，即 Portal 按实际地理位置（而非地图上的位置）为准
+ * 2017年12月起，Ingress应用内部的地图被迁移到OpenStreetMap上，因此现在Ingress应用内地图的是准确、无偏差的
  * Intel 地图上显示的地图不可信，卫星图可信
  * 申请新 Portal 调整位置时，Android 上务必以卫星图为准，iOS 上不一定可信，如有条件请站在 Portal 实际位置并调整 Portal 位置到地图上标识当前位置的蓝点处
- * 如果安装了 [Google Maps SDK Drifting Fix for China (应用内嵌谷歌地图纠偏)](http://repo.xposed.info/module/com.oasisfeng.google.maps.rectify) 插件，在申请新 Portal 时请务必停用或改用 [修改后](https://docs.google.com/file/d/0BxNnvIFWQpP2aWdCTkdqUXdnekk/edit) 的插件
 
 ## Google Play Service （仅 Android）
 
 [Google Play Service](https://play.google.com/store/apps/details?id=com.google.android.gms) 作为 Ingress 在 Android 上的依赖项，在国行设备上没有预装，需要通过刷机或通过各类 Google 服务安装器装入（可能需要 root，可能导致保修失效，后果自负）。
+
+> 由于国行手机通常需要解锁才能刷入Google框架，而这一过程可能会损坏手机的Safetynet，在出现这一情况时请使用Magisk框架进行修复。
 
 如果你不能判断你的设备是否有 Google Play Service，可安装任一 Google 官方应用，如 Google Maps 判断，如果应用不能正常运行，通常即为未安装或版本过老。
 
